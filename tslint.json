@@ -1,0 +1,40 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-security"
+  ],
+  "jsRules": {
+    "no-unused-expression": true
+  },
+  "rules": {
+    "class-name": true,
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "one-line": [
+      false
+    ],
+    "no-var-keyword": true,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "max-line-length": [
+      true,
+      150
+    ],
+    "interface-name": [
+      false
+    ],
+    "typedef-whitespace": [
+      true
+    ],
+    "whitespace": [
+      true,
+      "check-typecast"
+    ]
+  },
+  "rulesDirectory": []
+}
